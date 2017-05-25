@@ -1,0 +1,129 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#mainbody{
+	width: 100%;
+	height: 350px;
+}
+#header{
+	width: 100%;
+	height:200px;
+	background: url(../img/3.png);
+}
+#logo{
+	width: 270px;
+	height: 270px;
+	background: url(../img/4.png);
+	margin: 0 auto;
+}
+#menu {padding: 0 0}
+#menu ul {
+	float:right;
+	list-style:none;
+	margin:0px;
+}
+#menu ul li {
+	float:left;
+	margin:0 10px;
+	display:block;
+	line-height:28px;
+}
+.menuDiv {width:1px;height:28px;background:#999}
+#leftbody{
+	width: 260px;
+	height: 350px;
+}
+#middle{
+	width: 10px;
+	height: 350px;
+	margin-left: 280px;
+	margin-top: 50px;
+}
+li{
+	list-style:none;
+	margin-top: 30px;
+}
+h3{
+	color:#686868;
+}
+#rightbody{
+	width: 1050px;
+	height: 350px;
+	float: right;
+	margin-top: -300px;	
+	position: relative;
+}
+#add{
+	background: url(../img/9.png);
+	width: 185px;
+	height: 190px;
+}
+#del{
+	background: url(../img/11.png);
+	width: 185px;
+	height: 190px;
+	margin-left: 250px;
+	margin-top: -180px;
+}
+#update{
+	background: url(../img/6.png);
+	width: 185px;
+	height: 190px;
+	margin-left: 490px;
+	margin-top: -190px;
+}
+#check{
+	background: url(../img/7.png);
+	width: 185px;
+	height: 190px;
+	margin-left: 740px;
+	margin-top: -190px;
+}
+.white_content {  
+	background: url(../img/17.jpg);
+	display: none;  
+	position: absolute;  
+	top: 25%;  left: 25%;  
+	width: 50%;  height: 50%;  
+	padding: 16px;  
+	border: 10px solid #8B4513;  
+	background-color: white;  
+	z-index:1002;  
+	background-size:cover; 
+	overflow: auto;  
+} 
+.black_overlay{  
+	display: none;  
+	position: absolute;  
+	top: 0%;  
+	left: 0%;  
+	width: 100%;  
+	height: 100%;  
+	background-color: black;  
+	z-index:1001;  
+	-moz-opacity: 0.8;  
+	opacity:.80;  
+	filter: alpha(opacity=80);  
+} 
+#online{
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+}
+a{text-decoration:none}
+/*新增*/
+#inform{
+	width: 300px;
+	height: 150px;
+	margin: 0 auto;
+}
+#close{
+	background: url(../img/5.png);
+	width: 32px;
+	height: 32px;
+float:right;
+}
+/*新增*/
